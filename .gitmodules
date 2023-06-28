@@ -1,0 +1,3 @@
+[submodule "projects/sudoku-tui"]
+	path = projects/sudoku-tui
+	url = https://github.com/madmaxieee/sudoku-tui

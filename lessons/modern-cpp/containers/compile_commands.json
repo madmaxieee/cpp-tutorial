@@ -1,0 +1,72 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++2a",
+      "-O3",
+      "-o",
+      "bin/array-like",
+      "src/array-like.cpp"
+    ],
+    "directory": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers",
+    "file": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/src/array-like.cpp",
+    "output": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/bin/array-like"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++2a",
+      "-O3",
+      "-o",
+      "bin/stack-queue",
+      "src/stack-queue.cpp"
+    ],
+    "directory": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers",
+    "file": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/src/stack-queue.cpp",
+    "output": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/bin/stack-queue"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++2a",
+      "-O3",
+      "-o",
+      "bin/heaps",
+      "src/heaps.cpp"
+    ],
+    "directory": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers",
+    "file": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/src/heaps.cpp",
+    "output": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/bin/heaps"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++2a",
+      "-O3",
+      "-o",
+      "bin/maps",
+      "src/maps.cpp"
+    ],
+    "directory": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers",
+    "file": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/src/maps.cpp",
+    "output": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/bin/maps"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++2a",
+      "-O3",
+      "-o",
+      "bin/sets",
+      "src/sets.cpp"
+    ],
+    "directory": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers",
+    "file": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/src/sets.cpp",
+    "output": "/Users/madmax/Repos/cpp-tutorial/lessons/modern-cpp/containers/bin/sets"
+  }
+]

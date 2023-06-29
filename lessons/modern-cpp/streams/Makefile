@@ -30,10 +30,10 @@ $(BIN_DIR)/%_debug.o: $(SOURCE_DIR)/%.cpp
 	$(CC) $(C_FLAGS) $(DBG_FLAGS) $< -o $@
 
 run: $(BIN_DIR)/$(APP)
-	./$(BIN_DIR)/$(APP)
+	$(BIN_DIR)/$(APP)
 
 run_debug: $(BIN_DIR)/$(APP)_debug
-	./$(BIN_DIR)/$(APP)_debug
+	$(BIN_DIR)/$(APP)_debug
 
 clean:
 	rm -rf $(BIN_DIR)/*.o $(BIN_DIR)/$(APP)

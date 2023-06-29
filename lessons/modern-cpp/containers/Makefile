@@ -13,7 +13,7 @@ $(BIN_DIR)/%: $(SOURCE_DIR)/%.cpp
 	$(CC) $(OPT_FLAGS) $^ -o $@
 
 run:
-	./$(BIN_DIR)/$(APP)
+	$(BIN_DIR)/$(APP)
 
 clean:
 	rm -rf $(BIN_DIR)/*.o $(BIN_DIR)/$(APP)
